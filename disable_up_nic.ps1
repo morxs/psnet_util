@@ -1,0 +1,1 @@
+Get-NetAdapter | ? status -eq up | Disable-NetAdapter
